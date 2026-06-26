@@ -27,9 +27,12 @@ The analysis focuses on identifying pricing trends, discount strategies, invento
 | SQL         | Data Cleaning & Analysis    |
 | CSV Dataset | Product Inventory Data      |
 
-## 📂 Dataset Information
+## 📂 Dataset
 
-The dataset contains inventory information for products available on Zepto, including pricing, discounts, stock availability, product weights, and category details.
+This project uses the **Zepto Inventory Dataset**, which contains product-level information from Zepto's e-commerce platform, including product categories, pricing, discounts, stock availability, and product weights. The dataset is suitable for practicing SQL, exploratory data analysis (EDA), and retail business analytics.
+
+**Dataset Source:**
+🔗 [Zepto Inventory Dataset on Kaggle](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset)
 
 ### Dataset Features
 
@@ -39,9 +42,11 @@ The dataset contains inventory information for products available on Zepto, incl
 * Discount Percentage
 * Discounted Selling Price
 * Available Quantity
-* Product Weight
+* Product Weight (grams)
 * Stock Availability
 * Product Quantity
+
+**Dataset Size:** 3,000+ product records across multiple retail categories.
 
 ## 🗄️ Database Schema
 
@@ -163,31 +168,12 @@ using SQL CASE statements.
 
 Calculated total inventory weight available in each product category.
 
-# 📁 Project Structure
-
-```
-Zepto-SQL-Analysis/
-│
-├── Dataset/
-│   └── zepto_v2.csv
-│
-├── SQL/
-│   └── zepto_analysis.sql
-│
-├── README.md
-│
-└── Screenshots/
-    ├── Database.png
-    ├── Queries.png
-    └── Results.png
-```
-
 # 🚀 How to Run
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Zepto-SQL-Analysis.git
+git clone https://github.com/fn-karthick/Zepto-Analysis-Using-SQL
 ```
 
 ### Open PostgreSQL
@@ -242,10 +228,25 @@ Run the SQL queries sequentially to perform:
 # 📷 Project Preview
 
 * Database Schema
-* Table Data
+  
+  <img width="386" height="573" alt="database_schema" src="https://github.com/user-attachments/assets/02863dce-6483-46e6-a796-22b0feea8a0c" />
+
+* Table 
+
+<img width="1615" height="920" alt="table_data" src="https://github.com/user-attachments/assets/3fdbcf58-fcef-4704-a3c2-ddb2fa0d13d0" />
+
 * SQL Query Execution
+
+<img width="892" height="337" alt="sql_query" src="https://github.com/user-attachments/assets/1edb328a-991a-4335-8774-d4fbb18d1f5a" />
+
 * Query Results
+
+  <img width="657" height="432" alt="query_result" src="https://github.com/user-attachments/assets/baaf95be-a68c-4489-93cc-f65a0ed0a0e1" />
+
 * pgAdmin Dashboard
+
+  <img width="308" height="521" alt="pgadmin_dashboard" src="https://github.com/user-attachments/assets/0e94bd94-ced7-4b5f-a781-f7f6040e7f3a" />
+
 
 # ⭐ Future Improvements
 
